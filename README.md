@@ -1,7 +1,24 @@
-# PluginTemplate
+# NPC快速回家
+作者：棱镜  
+优化：羽学  
+```
+版本v1.1.0
 
-This repository acts as a baseline plugin to allow you to quickly and easily create new TShock plugins.
 
-# Plugin Development
+这是一个Tshock服务器插件主要用于NPC能在允许回家的情况下快速回家，  
+如果搭配西江的VBY.GameContentModify插件可以不输入指令直接分配房屋即可传送NPC回家，  
+修复了原插件分配住所后城镇NPC会人间蒸发的BUG。
+```
 
-For more information on TShock plugin development feel free to visit the [TShock repository](https://github.com/Pryaxis/TShock), the [TShock documentation](https://ikebukuro.tshock.co), the [TShock ReadMe](https://tshock.readme.io/docs/) or the official [TShock Discord](https://discord.com/invite/Cav9nYX).
+## 指令
+```
+/npchome
+```
+
+## 权限
+tshock.world.movenpc
+
+## 权限示例
+```
+/group addperm default tshock.world.movenpc
+```
